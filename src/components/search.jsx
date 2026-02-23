@@ -27,7 +27,7 @@ export default function Search({onInputChange}){
     }
     
     return(
-        <div className='w-[50%]  mt-[15px]'>
+        <div className='w-[80%] md:w-[60%] lg:w-[50%]  mt-[15px]'>
             <AsyncPaginate
                 placeholder="Search your city..."
                 debounceTimeout={800}
